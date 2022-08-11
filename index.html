@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+
+    <link rel="shortcut icon" href="src/imagens/pokefavicon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/pokebola.png" alt="pokebola" class="pokebola">
+        <h1 class="titulo">Pokédex</h1>
+        <img src="src/imagens/pokebola.png" alt="pokebola2" class="pokebola2">
+    </header>
+
+    <main class="slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="identifica">#025</p>
+                </div>
+
+                <div class="container-img">
+                    <img class="img-pokemon" src="src/imagens/pikachu.png" alt="pikachu">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Pikachu é um rato eletrico que pode gerar eletricidade poderosa de suas bolsas nas bochechas que são extra macias e super elásticas.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Charmander</h2>
+                    <p class="identifica">#004</p>
+                </div>
+
+                <div class="container-img">
+                    <img class="img-pokemon" src="src/imagens/evolution-1-charmander.png" alt="charmander">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Desde o nascimento, uma chama queima na ponta de sua cauda, tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta de sua cauda. Sua vida terminaria se a chama se apagasse.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Charmeleon</h2>
+                    <p class="identifica">#005</p>
+                </div>
+
+                <div class="container-img">
+                    <img class="img-pokemon" src="src/imagens/charmelion.png" alt="charmeleon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda de fogo e corta com garras afiadas. Se ficar agitado durante a batalha, ele solta chamas intensas, incinerando seus arredores.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="identifica">#006</p>
+                </div>
+
+                <div class="container-img">
+                    <img class="img-pokemon" src="src/imagens/charizard.png" alt="charizard">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Suas asas podem transportar este Pokémon a uma altitude de 4.600 pés, ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="identifica">#150</p>
+                </div>
+
+                <div class="container-img">
+                    <img class="img-pokemon" src="src/imagens/mewtwo.png" alt="mewtwo">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Seu DNA é quase o mesmo que o de Mew. No entanto, seu tamanho e disposição são muito diferentes.</p>
+                </div>
+            </li>
+
+        </ul>
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
